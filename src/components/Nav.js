@@ -7,11 +7,11 @@ function Nav() {
    
     <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar.Brand href="#home">SaldiVar</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+            Signed in as: <a href="#login">Arnold Saldivar</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

@@ -19,7 +19,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 ::-webkit-scrollbar-corner {
-  background-color: #fff; 
+  background-color: #292626dc; 
 }
 
 #img-container{
@@ -30,16 +30,15 @@ body::-webkit-scrollbar-thumb{
     margin-left: 10px;
     margin-right: 10px;
    
-  
   #img{
-
     height: 650px;
     max-width: 102%;
-    background-color: var(--bg-color2);
+    background-color: var(--bg-color);
     display: block;
     transition: opacity .3s linear;
     opacity: .5;
     transition: all .3s ease-in-out;
+    
   }
   .img-about{
     margin-left: 5px;
@@ -54,7 +53,7 @@ body::-webkit-scrollbar-thumb{
   }
 
   #img-col{
-    background-color: var(--bg-color);
+   
     
   }
  
