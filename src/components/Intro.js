@@ -6,16 +6,15 @@ import Image from 'react-bootstrap/Image';
 
 function Intro() {
   return (
-    <Container>
+    <Container id='img-container'>
       <Row>
-        <Col>
+        <Col id='img-col'>
              <Image className='img-about' id="img" src={process.env.PUBLIC_URL + '/img/dog.jpg'} alt="Example" rounded />
         </Col>
-        <Col>
+        <Col id='img-col'>
             <Image className='img-project' id="img" src={process.env.PUBLIC_URL + '/img/dog.jpg'} alt="Example" rounded />
-
         </Col>
-        <Col>
+        <Col id='img-col'>
             <Image className='img-contact' id="img" src={process.env.PUBLIC_URL + '/img/dog.jpg'} alt="Example" rounded />
 
         </Col>

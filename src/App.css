@@ -1,5 +1,62 @@
-#img{
-  padding-top: 20px;
-  height: 650px;
-  width: 300px;
+:root{
+  --bg-color: #292626dc;
+  --bg-color2: #4b4646dc;
+
 }
+body{
+  background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track-piece{
+  background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+  background: #292626dc;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #fff; 
+}
+
+#img-container{
+  max-width: 100%;
+}
+
+  #img-container{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  
+  #img{
+
+    height: 650px;
+    max-width: 102%;
+    background-color: var(--bg-color2);
+    display: block;
+    transition: opacity .3s linear;
+    opacity: .5;
+    transition: all .3s ease-in-out;
+  }
+  .img-about{
+    margin-left: 5px;
+  }
+  .img-contact{
+    margin-left: -5px;
+  }
+  #img:hover{
+    opacity: 20;
+    cursor: pointer;
+    transform: scale(1.1); 
+  }
+
+  #img-col{
+    background-color: var(--bg-color);
+    
+  }
+ 
+}
+
