@@ -38,7 +38,26 @@ body::-webkit-scrollbar-thumb{
     transition: opacity .3s linear;
     opacity: .5;
     transition: all .3s ease-in-out;
-    
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  #img-col{
+    transition: all .3s ease-in-out;
+    h1{
+      transition: .2s ;
+      text-transform: uppercase;
+    }
+  }
+  #img-col:hover, #img:hover{
+    opacity: 10;
+    cursor: pointer;
+    transform: scale(1.1); 
+    h1{
+      cursor: pointer;
+      font-size: 80px;
+      transition: .2s ease-in-out;
+    }
   }
   .img-about{
     margin-left: 5px;
@@ -46,13 +65,25 @@ body::-webkit-scrollbar-thumb{
   .img-contact{
     margin-left: -5px;
   }
-  #img:hover{
-    opacity: 20;
-    cursor: pointer;
-    transform: scale(1.1); 
-  }
-
  
+
+  .about {
+    position: absolute;
+    bottom: 285px;
+    left: 165px;
+    
+  }
+  .project{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact{
+    position: absolute;
+    bottom: 285px;
+    right: 165px;
+  }
  
 }
 
